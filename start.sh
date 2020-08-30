@@ -21,4 +21,5 @@ cd nvim_config
 mv .vim ~/
 ln -s ~/.vim ~/.config/nvim
 mkdir ~/vimtmp
-apt install exuberant-ctags silversearcher-ag
+apt -y install exuberant-ctags silversearcher-ag
+echo "done for all"
