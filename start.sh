@@ -19,6 +19,6 @@ cd /tmp
 git clone https://github.com/yud1z/nvim_config.git
 cd nvim_config
 mv .vim ~/
-ln -s ~/.vim ~/.config
+ln -s ~/.vim ~/.config/nvim
 mkdir ~/vimtmp
 apt install exuberant-ctags silversearcher-ag
