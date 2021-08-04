@@ -11,6 +11,7 @@ chmod -R 777 nvim.appimage
 ./nvim.appimage --appimage-extract
 mv squashfs-root nvim_bin
 mv nvim_bin /
+chmod -R 777 /nvim_bin
 ln -s /nvim_bin/AppRun /usr/bin/nvim
 echo "done with installing nvim"
 
