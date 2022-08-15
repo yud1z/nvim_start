@@ -10,9 +10,9 @@ wget https://github.com/neovim/neovim/releases/download/v0.4.4/nvim.appimage
 chmod -R 777 nvim.appimage 
 ./nvim.appimage --appimage-extract
 mv squashfs-root nvim_bin
-mv nvim_bin /
-chmod -R 777 /nvim_bin
-ln -s /nvim_bin/AppRun /usr/bin/nvim
+sudo mv nvim_bin /
+sudo chmod -R 777 /nvim_bin
+sudo ln -s /nvim_bin/AppRun /usr/bin/nvim
 echo "done with installing nvim"
 
 echo "starting to adding my configuration"
