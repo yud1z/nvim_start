@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [[ $(/usr/bin/id -u) -ne 0 ]]; then
-    echo "must root"
-    exit
-fi
-
 cd /tmp
 wget https://github.com/neovim/neovim/releases/download/v0.4.4/nvim.appimage
 chmod -R 777 nvim.appimage 
