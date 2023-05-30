@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /tmp
-wget https://github.com/neovim/neovim/releases/download/v0.4.4/nvim.appimage
+wget https://github.com/neovim/neovim/releases/download/v0.9.1/nvim.appimage
 chmod -R 777 nvim.appimage 
 ./nvim.appimage --appimage-extract
 mv squashfs-root nvim_bin
