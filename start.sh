@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt -y install exuberant-ctags silversearcher-ag git
+
 cd /tmp
 wget https://github.com/neovim/neovim/releases/download/v0.9.1/nvim.appimage
 chmod -R 777 nvim.appimage 
@@ -18,5 +20,4 @@ cd nvim_config
 mv .vim ~/
 ln -s ~/.vim ~/.config/nvim
 mkdir ~/vimtmp
-sudo apt -y install exuberant-ctags silversearcher-ag
 echo "done for all"
